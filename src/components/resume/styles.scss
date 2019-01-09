@@ -1,0 +1,25 @@
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+
+  span, a {
+    display: flex;
+    margin: 10px;
+    font-size: 18px;
+  }
+}
+
