@@ -13,13 +13,13 @@ class Index extends Component {
                     <span>(831) 917-8179</span> 
                     <span>tylerthomasallen@gmail.com</span>
                 
-                    <a href="https://www.linkedin.com/in/tylertallen/" className="link"> 
-                        <span>LinkedIn</span>
+                    <a href="https://www.linkedin.com/in/tylertallen/" className="link">
+                        LinkedIn
                         <ion-icon name="logo-linkedin"></ion-icon>
                     </a>
                     
                     <a href="https://github.com/tylerthomasallen" className="link">
-                        <span>Github</span>
+                        Github
                         <ion-icon name="logo-github"></ion-icon>
                     </a>
 

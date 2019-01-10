@@ -8,7 +8,7 @@ $text-color: #424C4D;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+  margin: 20px;
   max-width: 690px;
 }
 
@@ -19,7 +19,9 @@ h1 {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 5px;
 }
 
 .contact-info {
@@ -29,39 +31,59 @@ h2 {
   flex-wrap: wrap;
   font-weight: 400;
 
-  span, .link {
+  span {
     font-size: 18px;
     margin: 5px;
-    color: #424C4D;
   }
 
-  .link {
-    text-decoration: underline;
-    display: flex;
-    align-items: center;
-
-    span {
-      color: $link-color;
-    }
+  a {
+    margin: 5px;
   }
+
   
-
-  .link:hover {
-    color: $link-hover;
-  }
-
   ion-icon {
     display: flex;
     align-items: center;
     font-size: 24px;
-    color: $link-color;
+    margin-left: 3px;
+    margin-right: 3px;
   }
+}
+
+.resume-section {
+  margin-top: 15px;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-title-sites {
+  display: flex;
+  align-items: center;
+
+  a:first-child {
+    padding-right: 5px;
+    margin-right: 5px;
+    border-right: solid gray;
+    border-width: .2px;
+  }
+}
+
+
+.link {
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  color: $link-color;
+  font-size: 18px;
+}
+
+.link:hover {
+  color: $link-hover;
 }
 
 .text {
   color: $text-color;
-}
-
-.resume-section {
-  margin-top: 10px;
 }
