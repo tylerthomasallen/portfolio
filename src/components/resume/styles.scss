@@ -1,3 +1,7 @@
+$link-color: #01C3FE;
+$link-hover: #0109FE;
+$title-color:#1ACDA3;
+$text-color: #424C4D;
 
 .parent {
   display: flex;
@@ -10,16 +14,42 @@
 h1 {
     font-size: 36px;
     font-weight: 300;
+    color: $title-color;
 }
 
 .contact-info {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: 400;
 
-  span, a {
-    display: flex;
-    margin: 10px;
+  span, .link {
     font-size: 18px;
+    margin: 5px;
+    color: #424C4D;
+  }
+
+  .link {
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+
+    span {
+      color: $link-color;
+    }
+  }
+  
+
+  .link:hover {
+    color: $link-hover;
+  }
+
+  ion-icon {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: $link-color;
   }
 }
 

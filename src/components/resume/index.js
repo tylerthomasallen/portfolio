@@ -10,11 +10,17 @@ class Index extends Component {
                 <div className="contact-info">
                     <span>(831) 917-8179</span> 
                     <span>tylerthomasallen@gmail.com</span>
-                    <a href="https://www.linkedin.com/in/tylertallen/">LinkedIn
+                
+                    <a href="https://www.linkedin.com/in/tylertallen/" className="link"> 
+                        <span>LinkedIn</span>
+                        <ion-icon name="logo-linkedin"></ion-icon>
                     </a>
-                    <a href="https://github.com/tylerthomasallen">
-                    Github
+                    
+                    <a href="https://github.com/tylerthomasallen" className="link">
+                        <span>Github</span>
+                        <ion-icon name="logo-github"></ion-icon>
                     </a>
+
                 </div>
             </div>
 
