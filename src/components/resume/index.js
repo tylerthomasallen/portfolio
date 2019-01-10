@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './styles.scss';
 import Skills from '../skills';
+import Projects from '../projects';
 
 class Index extends Component {
 
@@ -25,6 +26,7 @@ class Index extends Component {
                 </div>
 
                 <Skills />
+                <Projects />
             </div>
 
         )
