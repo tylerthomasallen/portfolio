@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './styles.scss';
+import Skills from '../skills';
 
 class Index extends Component {
 
@@ -22,6 +23,8 @@ class Index extends Component {
                     </a>
 
                 </div>
+
+                <Skills />
             </div>
 
         )
