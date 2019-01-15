@@ -1,4 +1,4 @@
-$link-color: #2c3e50;;
+$link-color: #0109FE;;
 $link-hover: #0109FE;
 $title-color:#1ACDA3;
 $text-color: #424C4D;
@@ -72,7 +72,10 @@ $background: #2c3e50;
 
   span {
     color: $text-color;
-    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 28px;
   }
 }
 

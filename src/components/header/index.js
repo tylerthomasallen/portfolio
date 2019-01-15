@@ -11,6 +11,8 @@ class Header extends Component {
           <div className="divide-line"></div>
           
           <Contact />
+          <h3>Software Engineer</h3>
+          <h3>San Francisco</h3>
       </div>
 
     )
