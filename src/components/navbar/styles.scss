@@ -1,4 +1,4 @@
-$link-color: #01C3FE;
+$link-color: #2c3e50;;
 $link-hover: #0109FE;
 $title-color:#1ACDA3;
 $text-color: #424C4D;
@@ -66,8 +66,13 @@ $background: #2c3e50;
 
   h1 {
     color: white;
-    font-size: 42px;
+    font-size: 48px;
     font-weight: bold;
+  }
+
+  span {
+    color: $text-color;
+    font-size: 24px;
   }
 }
 
@@ -76,3 +81,8 @@ $background: #2c3e50;
   border-radius: 50%;
 }
 
+.divide-line {
+  width: 50%;
+  border: 1px solid white;
+  margin: 10px;
+}
