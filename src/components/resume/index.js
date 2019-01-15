@@ -3,6 +3,7 @@ import './styles.scss';
 import Skills from '../skills';
 import Projects from '../projects';
 import Experience from '../experience';
+import Education from '../education';
 
 class Index extends Component {
 
@@ -29,6 +30,7 @@ class Index extends Component {
                 <Skills />
                 <Projects />
                 <Experience />
+                <Education />
             </div>
 
         )
