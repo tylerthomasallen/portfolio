@@ -24,7 +24,7 @@ class Experience extends Component {
         <div>
           <div className="project-title">
             <h3>Account Executive</h3>
-            <span>July 2015 - April 2016</span>
+            <span>Jul 2015 - Apr 2016</span>
           </div>
 
           <span>TubeMogul</span>
