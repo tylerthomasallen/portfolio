@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Resume from './resume';
 import NavBar from './navbar';
+import Header from './header';
 
 class Index extends Component {
 
@@ -8,6 +9,7 @@ class Index extends Component {
         return (
             <div>
                 <NavBar />
+                <Header />
                 <Resume />
             </div>
         )

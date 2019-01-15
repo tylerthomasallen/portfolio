@@ -16,7 +16,7 @@ class NavBar extends Component {
       <div className="navbar-right">
           <a href="https://www.google.com/">Projects</a>
           <a href="https://www.google.com/">Resume</a>
-          <a href="https://www.google.com/">Recommendations</a>
+          <a href="https://www.google.com/">Recs</a>
           <a href="https://www.google.com/">Contact</a>
       </div>
 
