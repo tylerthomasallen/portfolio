@@ -1,0 +1,46 @@
+$link-color: #01C3FE;
+$link-hover: #0109FE;
+$title-color:#1ACDA3;
+$text-color: #424C4D;
+
+.App {
+  width: 100%;
+}
+
+.navbar-container {
+  background-color: $title-color;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  h1 {
+    font-weight: bold;
+    color: white;
+  }
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+
+  a {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin: 15px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+

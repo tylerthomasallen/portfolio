@@ -3,13 +3,15 @@ $link-hover: #0109FE;
 $title-color:#1ACDA3;
 $text-color: #424C4D;
 
-.parent {
+.resume-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
   max-width: 800px;
+
 }
 
 h1 {

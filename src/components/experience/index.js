@@ -12,7 +12,7 @@ class Experience extends Component {
             <span>Feb 2017 - Jul 2018</span>
           </div>
 
-          <span>Branch.io</span>
+          <span>Branch.gio</span>
 
           <ul>
             <li>Promoted twice and averaged 120% to goal due to ability to learn quickly, execute and navigate change. </li>
