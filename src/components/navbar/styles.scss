@@ -17,13 +17,14 @@ $background: #2c3e50;
   position: sticky;
   top: 0;
 
-  h1 {
+  a {
     font-weight: bold;
     color: white;
     margin: 10px;
+    font-size: 36px;
   }
 
-  h1:hover {
+  a:hover {
     color: $title-color;
     cursor: pointer;
     text-decoration: underline;

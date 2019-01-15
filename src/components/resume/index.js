@@ -10,7 +10,7 @@ class Index extends Component {
 
     render() {
         return(
-            <div className="resume-container">
+            <div className="resume-container" id="resume">
                 <h1>TYLER ALLEN</h1>
                 <Contact />
 

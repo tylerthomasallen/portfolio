@@ -5,7 +5,7 @@ import Contact from '../contact';
 class Header extends Component {
   render() {
     return(
-      <div className="header-container">
+      <div className="header-container" id="header">
           <img src={tyler} className="header-img"></img>
           <h1>Tyler Allen</h1>
           <div className="divide-line"></div>
