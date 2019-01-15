@@ -8,11 +8,11 @@ class Experience extends Component {
 
         <div>
           <div className="project-title">
-            <h3>Account Executive, Integrations Engeering</h3>
+            <h3>Account Executive, Integrations Engineer</h3>
             <span>Feb 2017 - Jul 2018</span>
           </div>
 
-          <span>Branch.gio</span>
+          <span>Branch.io</span>
 
           <ul>
             <li>Promoted twice and averaged 120% to goal due to ability to learn quickly, execute and navigate change. </li>
