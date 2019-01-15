@@ -5,7 +5,7 @@ class Education extends Component {
   render() {
     return(
       <div className="resume-section">
-        <h1>Education</h1>
+        <h2>Education</h2>
 
         <div className="resume-section-child">
           <div className="project-title">

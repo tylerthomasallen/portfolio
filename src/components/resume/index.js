@@ -5,15 +5,19 @@ import Projects from '../projects';
 import Experience from '../experience';
 import Education from '../education';
 import Contact from '../contact';
+import Download from '../download';
 
-class Index extends Component {
+class Resume extends Component {
 
     render() {
         return(
             <div className="resume-container" id="resume">
-                <h1>TYLER ALLEN</h1>
-                <Contact />
+                <h1>RESUME</h1>
+                <div className="divide-line" />
+                <Download />
+                <h2>TYLER ALLEN</h2>
 
+                <Contact />
                 <Skills />
                 <Projects />
                 <Experience />
@@ -24,4 +28,4 @@ class Index extends Component {
     }
 }
 
-export default Index;
+export default Resume;
