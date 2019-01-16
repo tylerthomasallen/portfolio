@@ -1,0 +1,37 @@
+
+
+.header-container {
+  background: url('../header/surf.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 300px;
+
+  h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 28px;
+    color: white;
+  }
+}
+
+.header-img {
+  height: 300px;
+  border-radius: 50%;
+}
+
+.divide-line {
+  width: 50%;
+  border: 1px solid white;
+  margin: 10px;
+}

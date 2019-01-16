@@ -1,0 +1,30 @@
+@import '../../assets/colors';
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: 400;
+
+  span {
+    font-size: 20px;
+    margin: 5px;
+    color: $text-color;
+    font-weight: 400;
+    color: white;
+
+  }
+  a {
+    margin: 5px;
+    color: white;
+  }
+
+  ion-icon {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}

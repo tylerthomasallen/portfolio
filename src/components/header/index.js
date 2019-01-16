@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './styles.scss';
 import tyler from './tyler.jpg';
 import Contact from '../contact';
 
